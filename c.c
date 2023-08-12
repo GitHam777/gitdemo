@@ -40,8 +40,11 @@ void main()
         {
             case 1: push();
                     break;
+            case 2: pop();
+                    break;
+            case 3: display();
+                    break;
             case 4: exit(0);
-
         }
 
     } while (1);
